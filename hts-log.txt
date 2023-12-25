@@ -1,0 +1,44 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 23 Dec 2023 18:01:29 at https://iceico.in +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://iceico.in -O1 "C:\My Web Sites\website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:02:18	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/apple-touch-icon.png (from https://iceico.in/)
+18:47:12	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/digital-futuristic-technology-particle-wave-design_1017-30515 (from https://iceico.in/assets/css/style.css)
+18:47:12	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/footer-bg.jpg (from https://iceico.in/assets/css/style.css)
+18:47:13	Error: 	"Not Found" (404) at link https://iceico.in/hubfs/nagarro_LifeScience_Healthcare_2022_wrap-up.pdf (from https://iceico.in/life-sciences.php)
+18:47:13	Error: 	"Not Found" (404) at link https://iceico.in/en/success-stories/co-creating-safer-world-confidential-hiv-testing-at-home (from https://iceico.in/life-sciences.php)
+18:47:13	Error: 	"Not Found" (404) at link https://iceico.in/en/news-press-release/nagarro-iso13485-certified-medical-devices (from https://iceico.in/life-sciences.php)
+18:47:13	Error: 	"Not Found" (404) at link https://iceico.in/en/blog/global-medical-device-market-analysis (from https://iceico.in/life-sciences.php)
+18:47:15	Warning: 	Retry after error -4 (Connect Error) at link https://www.iceico.com/hubfs/tomhorn-portfolio (1).png (from https://iceico.in/agile.php)
+18:47:15	Error: 	"Not Found" (404) at link https://kit.fontawesome.com/4669dfa340.css (from https://iceico.in/ai-da.php)
+18:47:15	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Integrating (from https://iceico.in/ai-da.php)
+18:47:15	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Data (from https://iceico.in/ai-da.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Modernizing (from https://iceico.in/modernize.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Metal (from https://iceico.in/innovate.php)
+18:47:37	Warning: 	Retry after error -4 (Connect Error) at link https://iceico.in/assets/img/IDP_white-paper-banner.jpg (from https://iceico.in/ai_ml.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Improve (from https://iceico.in/data_science.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Cultivating (from https://iceico.in/agile_ins.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/building (from https://iceico.in/chaos_engineering.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/AI4T_Data (from https://iceico.in/data_mesh.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Automotive (from https://iceico.in/automotive_ins.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Metaverse (from https://iceico.in/gaming_ins.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/ins_tele4.Webp (from https://iceico.in/telecommunications_ins.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/ins_travel16.webp (from https://iceico.in/travel_ins.php)
+18:47:37	Error: 	"Not Found" (404) at link https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js (from https://iceico.in/maintenance.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/.png (from https://iceico.in/reasontojoin.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/images/ico/apple-touch-icon-144.png (from https://iceico.in/contact_us.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/images/ico/apple-touch-icon-114.png (from https://iceico.in/contact_us.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/images/apple-touch-icon-72.png (from https://iceico.in/contact_us.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/images/ico/apple-touch-icon-57.png (from https://iceico.in/contact_us.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/images/ico/favicon.ico (from https://iceico.in/contact_us.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/iceico.in (from https://iceico.in/contact_us.php)
+18:47:37	Warning: 	Retry after error -4 (Connect Error) at link https://www.iceico.com/hubfs/tomhorn-portfolio (1).png (from https://iceico.in/agile.php)
+18:47:37	Error: 	"Not Found" (404) at link https://iceico.in/assets/img/Azurey.svg (from https://iceico.in/assets/img/microsoft-azure.svg)
+18:47:58	Error: 	"Connect Error" (-4) after 2 retries at link https://www.iceico.com/hubfs/tomhorn-portfolio (1).png (from https://iceico.in/agile.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 46 minutes 29 seconds : 934 links scanned, 900 files written (179901470 bytes overall) [179273276 bytes received at 64278 bytes/sec], 1159902 bytes transferred using HTTP compression in 14 files, ratio 22%, 3.4 requests per connection
+(30 errors, 3 warnings, 0 messages)

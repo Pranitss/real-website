@@ -1,0 +1,1712 @@
+
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from iceico.in/maintenance.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 13:16:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICEICO - Maintenance</title>
+    <link href="../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <script src="../stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/slide_animation.css" rel="stylesheet">
+    <style>
+        #typing-span {
+            border-right: .05em solid;
+            animation: caret 1s steps(1) infinite;
+        }
+
+        @keyframes caret {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+
+        body {
+
+            background-color: #161616;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: normal;
+            color: #505050;
+            margin-top: 0px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px;
+            color: white;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        h4 {
+            color: white;
+        }
+
+        h6 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            color: white;
+        }
+
+        p {
+            font-weight: normal;
+            line-height: 1.5;
+            color: white;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x) * -.5);
+            margin-left: calc(var(--bs-gutter-x) * -.5);
+        }
+
+
+
+        ol {
+            padding-left: 1.5rem;
+        }
+
+        .service {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, #0FC88A 0px 8px 16px -8px;
+            padding: 30px;
+            border-radius: 6px;
+            height: 100%;
+        }
+
+        .service img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .service h4 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .service p {
+            font-size: 14px;
+        }
+
+
+
+        .main-bg-image {
+            background-color: #13294B;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bg-image h1 {
+            color: #F8F9FA;
+        }
+
+        .bg-p {
+            color: #198754;
+        }
+
+        .display {
+            display: flex;
+        }
+
+
+
+        b,
+        strong {
+            font-weight: bolder;
+        }
+
+        .service-label {
+            background-color: #6c757d;
+            color: #fff;
+            margin-bottom: 10px;
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-size: 15px;
+            margin-right: 7px;
+            display: inline-block;
+        }
+
+        .icon img {
+            display: block;
+            width: 56px;
+            height: 57px;
+            margin: 0 auto;
+        }
+
+        /* new */
+        .carousel {
+            margin: 0 auto;
+            padding: 0 70px;
+        }
+
+        .carousel .item {
+            color: #999;
+            overflow: hidden;
+            min-height: 120px;
+            font-size: 13px;
+        }
+
+        .carousel .media {
+            position: relative;
+            padding: 0 0 0 20px;
+        }
+
+        .carousel .media img {
+            width: 75px;
+            height: 75px;
+            display: block;
+            border-radius: 50%;
+        }
+
+        .carousel .testimonial-wrapper {
+            padding: 0 10px;
+        }
+
+        .carousel .testimonial {
+            color: #799583;
+            position: relative;
+            padding: 15px;
+            background: #142A24;
+            border: 1px solid #efefef;
+            border-radius: 3px;
+            margin-bottom: 15px;
+        }
+
+        .carousel .testimonial::after {
+            content: "";
+            width: 15px;
+            height: 15px;
+            display: block;
+            background: #142A24;
+            border: 1px solid #efefef;
+            border-width: 0 0 1px 1px;
+            position: absolute;
+            bottom: -8px;
+            left: 46px;
+            transform: rotateZ(-46deg);
+        }
+
+        .carousel .star-rating li {
+            padding: 0 2px;
+        }
+
+        .carousel .star-rating i {
+            font-size: 16px;
+            color: #ffdc12;
+        }
+
+        .carousel .overview {
+            padding: 3px 0 0 15px;
+        }
+
+        .carousel .overview .details {
+            padding: 5px 0 8px;
+        }
+
+        .carousel .overview b {
+            text-transform: uppercase;
+            color: #1abc9c;
+        }
+
+        .carousel-indicators {
+            bottom: -70px;
+        }
+
+        .carousel-indicators li,
+        .carousel-indicators li.active {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            margin: 1px 2px;
+        }
+
+        .carousel-indicators li {
+            background: #e2e2e2;
+            border: 4px solid #fff;
+            width: 18px !important;
+            height: 18px !important;
+            border-radius: 50%;
+        }
+
+        .carousel-indicators li.active {
+            color: #fff;
+            background: #1abc9c;
+            border: 5px double;
+        }
+
+        .form {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, #0FC88A 0px 8px 16px -8px;
+            top: 90px;
+            height: 550px;
+            height: 100%;
+            border: 1px solid #799583;
+            border-radius: 5px;
+        }
+
+
+
+
+        .icon .step {
+            display: inline-block;
+            min-width: 70px;
+
+            padding: 4px 12px;
+            background-color: #E6F4F0;
+            border-radius: 4px;
+            color: #393535;
+            font-size: 13px;
+            line-height: 1.8;
+            letter-spacing: .01em;
+            font-weight: 500;
+            margin: 30px;
+        }
+
+        .btn-danger:hover {
+            background-color: #B1CC45;
+            transition: 1s;
+            border: none;
+
+        }
+
+        .btn-outline-info:hover {
+            background-color: #347ABE;
+            transition: 1s;
+            color: white;
+
+        }
+        .container-1 {
+            height:auto!important;
+        }
+    </style>
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-xl">
+        <a class="navbar-brand" href="index-2.html"><img src="assets/img/Group%201.png" alt="logo" class="img-fluid" style="max-width: 100%; width: 70px" /></a>
+        <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="width: 5vw"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <div class="separator" style="
+                        height: 1px;
+                        border-top: 1px solid rgba(255, 255, 255, 0.55);
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        width: 150px;
+                        flex: 1;
+                        margin-top: 20px;
+            "></div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="industries.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Industries
+                    </a>
+                    <ul class="text-light dropdown-menu p-3 pt-3 pb-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="link-light dropdown-item" href="gaming.html">Gaming &amp; Entertainment</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="life-sciences.html">Life sciences &amp;
+                                healthcare</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="media.html">Media &amp; publishing</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="non-profits.html">Non-profits and education</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="retails.html">Retail &amp; cpg</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="smart-buildings.html">Smart buildings</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="container container-sm text-light dropdown-menu overflow dropdown-menu-scrollable" aria-labelledby="navbarDropdownMenuLink" style="width: 100vw; left: -400px; margin: 0px -20px">
+                        <li class="p-2 pb-5 pt-5 row">
+                            <section class="col-lg-3 col-md-12 col-sm-12 d-lg-block d-md-none">
+                                <ul class="mylist">
+                                    <li>
+                                        <div class="menu-title fs-3">Services</div>
+                                    </li>
+                                    <li>
+                                        <p class="">
+                                            Accelerate your vision with technologies that are both
+                                            agile and cutting edge.
+                                        </p>
+                                    </li>
+                                    <li class="position-absolute top-50">
+                                        <a href="all_services.html" class="link-light p-5 pt-2 pb-2 bg-success link-hover d-none d-lg-block" style="border-radius: 50px">view all services</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="col-lg-3 col-md-12 col-sm-12">
+                                <ul class="mylist">
+                                    <li>
+                                        <a href="accelerated-quality.html" class="link-light dropdown-item">
+                                            <h6>accelerated quality &amp; test-engineering</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="agile.html" class="link-light dropdown-item">
+                                            <h6>agile</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="api-mgmt.html" class="link-light dropdown-item">
+                                            <h6>api management</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app-develop.html" class="link-light dropdown-item">
+                                            <h6>application development</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app-manage.html" class="link-light dropdown-item">
+                                            <h6>application managed services</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ai-da.html" class="link-light dropdown-item">
+                                            <h6>artificial intelligence, data &amp; analytics</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="blockchain.html" class="link-light dropdown-item">
+                                            <h6>blockchain</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cloud.html" class="link-light dropdown-item">
+                                            <h6>cloud</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="crm.html" class="link-light dropdown-item">
+                                            <h6>crm</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="customer-communications.html" class="link-light dropdown-item">
+                                            <h6>customer communications</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="design.html" class="link-light dropdown-item">
+                                            <h6>design</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="col-lg-3 col-md-12 col-sm-12">
+                                <ul class="mylist">
+                                    <li>
+                                        <a href="devops.html" class="link-light dropdown-item">
+                                            <h6>devops</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="digital-commerce.html" class="link-light dropdown-item">
+                                            <h6>digital commerce</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="digital-experiences.html" class="link-light dropdown-item">
+                                            <h6>digital experiences</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="digital-ventures.html" class="link-light dropdown-item">
+                                            <h6>digital ventures</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ecm-%26-portals.html" class="link-light dropdown-item">
+                                            <h6>ecm &amp; portals</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="embedded.html" class="link-light dropdown-item">
+                                            <h6>embedded systems</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="enterprising%20consu.html" class="link-light dropdown-item">
+                                            <h6>enterprise architecture consulting</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="erp.html" class="link-light dropdown-item">
+                                            <h6>erp</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="identify%20man.html" class="link-light dropdown-item">
+                                            <h6>identity and access management</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="inovation.html" class="link-light dropdown-item">
+                                            <h6>innovation</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="internet%20of%20things.html" class="link-light dropdown-item">
+                                            <h6>internet of things</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="col-lg-3 col-md-12 col-sm-12">
+                                <ul class="mylist">
+                                    <li>
+                                        <a href="low%20code.html" class="link-light dropdown-item">
+                                            <h6>low code</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mainfraim%20%26%20legacy.html" class="link-light dropdown-item">
+                                            <h6>mainframe &amp; legacy</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mobility%20solu.html" class="link-light dropdown-item">
+                                            <h6>mobility solutions</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="process%20consulting.html" class="link-light dropdown-item">
+                                            <h6>process consulting</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="product%20engeeniring.html" class="link-light dropdown-item">
+                                            <h6>product engineering</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="resilience_engineering.html" class="link-light dropdown-item">
+                                            <h6>resilience engineering</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="sap_services.html" class="link-light dropdown-item">
+                                            <h6>sap services</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="security.html" class="link-light dropdown-item">
+                                            <h6>security</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="technical_communication.html" class="link-light dropdown-item">
+                                            <h6>technical communication</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="trainings.html" class="link-light dropdown-item">
+                                            <h6>trainings</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="transformation.html" class="link-light dropdown-item">
+                                            <h6>transformation and modernization</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown overflow">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Insights
+                    </a>
+                    <ul class="container container-sm text-light dropdown-menu dropdown-menu-scrollable" aria-labelledby="navbarDropdownMenuLink" style="width: 100vw; left: -490px; margin: 0 -20px">
+                        <li class="container container-sm insight p-2 pb-4 pt-4" style="width: 100vw; left: -825px">
+                            <div class="headings">
+                                <div class="row text-center p-1 d-lg-flex d-md-none">
+                                    <div class="col-md-6 fs-2">Thinking Breakthroughs</div>
+                                    <div class="col-md-6">
+                                        <a href="#" class="link-light p-5 pt-2 pb-2 bg-success link-hover d-none d-lg-inline-block">
+                                            Explore our best ideas</a>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row p-5 pt-4 pb-4">
+                                    <section class="col-lg-4 col-md-12 col-sm-12">
+                                        <ul class="mylist">
+                                            <li>
+                                                <div class="fs-6 p-3 pt-0 pb-0 text-success">Filter by Goal</div>
+                                            </li>
+                                            <li>
+                                                <a href="modernize.html" class="link-light dropdown-item fs-3">Modernize</a>
+                                            </li>
+                                            <li>
+                                                <a href="optimize.html" class="link-light dropdown-item fs-3">Optimize</a>
+                                            </li>
+                                            <li>
+                                                <a href="innovate.html" class="link-light dropdown-item fs-3">Innovate</a>
+                                            </li>
+                                            <li>
+                                                <a href="disrupt.html" class="link-light dropdown-item fs-3">Disrupt</a>
+                                            </li>
+                                            <li>
+                                                <a href="transform.html" class="link-light dropdown-item fs-3">Transform</a>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                    <section class="col-lg-4 col-md-12 col-sm-12 border-right" style="border-left: 1px solid #999">
+                                        <ul class="mylist">
+                                            <li>
+                                                <div class="fs-6 p-3 pt-0 pb-0 text-success">
+                                                    Trending technologies
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="ai_ml.html" class="link-light dropdown-item fs-5">AI and ML</a>
+                                            </li>
+                                            <li>
+                                                <a href="data_science.html" class="link-light dropdown-item fs-5">Data Science</a>
+                                            </li>
+                                            <li>
+                                                <a href="iot.html" class="link-light dropdown-item fs-5">IoT</a>
+                                            </li>
+                                            <li>
+                                                <a href="low_code_ins.html" class="link-light dropdown-item fs-5">Low Code</a>
+                                            </li>
+                                            <li>
+                                                <a href="api_ins.html" class="link-light dropdown-item fs-5">API-Management</a>
+                                            </li>
+                                            <li>
+                                                <a href="aqt.html" class="link-light dropdown-item fs-5">AQT</a>
+                                            </li>
+                                            <li>
+                                                <a href="cloud_ins.html" class="link-light dropdown-item fs-5">Cloud</a>
+                                            </li>
+                                            <li>
+                                                <a href="agile_ins.html" class="link-light dropdown-item fs-5">Agile</a>
+                                            </li>
+                                            <li>
+                                                <a href="devops_ins.html" class="link-light dropdown-item fs-5">DevOps</a>
+                                            </li>
+                                            <li>
+                                                <a href="chaos_engineering.html" class="link-light dropdown-item fs-5">Chaos Engineering</a>
+                                            </li>
+                                            <li>
+                                                <a href="data_mesh.html" class="link-light dropdown-item fs-5">Data Mesh</a>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                    <section class="col-lg-4 col-md-12 col-sm-12 border-right" style="border-left: 1px solid #999">
+                                        <ul class="mylist">
+                                            <li>
+                                                <div class="fs-6 p-3 pt-0 pb-0 text-success">Industry</div>
+                                            </li>
+                                            <li>
+                                                <a href="automotive_ins.html" class="link-light dropdown-item">Automotive</a>
+                                            </li>
+                                            <li>
+                                                <a href="banking_financial_ins.html" class="link-light dropdown-item">Banking and Financial
+                                                    Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="insurance_ins.html" class="link-light dropdown-item">Insurance</a>
+                                            </li>
+                                            <li>
+                                                <a href="energy_ins.html" class="link-light dropdown-item">Energy and Utilities</a>
+                                            </li>
+                                            <li>
+                                                <a href="gaming_ins.html" class="link-light dropdown-item">Gaming and
+                                                    Entertainment</a>
+                                            </li>
+                                            <li>
+                                                <a href="isv_ins.html" class="link-light dropdown-item">ISV</a>
+                                            </li>
+                                            <li>
+                                                <a href="life_science_ins.html" class="link-light dropdown-item">Life-sciences and
+                                                    Healthcare</a>
+                                            </li>
+                                            <li>
+                                                <a href="media_ins.html" class="link-light dropdown-item">Media and Publishing</a>
+                                            </li>
+                                            <li>
+                                                <a href="retail_cpg_ins.html" class="link-light dropdown-item">Retail and CPG</a>
+                                            </li>
+                                            <li>
+                                                <a href="telecommunications_ins.html" class="link-light dropdown-item">Telecommunications</a>
+                                            </li>
+                                            <li>
+                                                <a href="travel_ins.html" class="link-light dropdown-item">Travel &amp; Logistics</a>
+                                            </li>
+                                            <li>
+                                                <a href="industry_ins.html" class="link-light dropdown-item">Industry and Automation</a>
+                                            </li>
+                                            <li>
+                                                <a href="non_profits_ins.html" class="link-light dropdown-item">Non-profits and
+                                                    Education</a>
+                                            </li>
+                                            <li>
+                                                <a href="public_sector_ins.html" class="link-light dropdown-item">Public Sector</a>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="maintenance.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Maintenance
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About us
+                    </a>
+                    <div class="text-light dropdown-menu p-3 pt-3 pb-3" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="link-light dropdown-item" href="canyoutrustus.html">Can you trust us
+                        </a>
+
+                        <a class="link-light dropdown-item" href="reasontojoin.html">10 reason to join
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Careers
+                    </a>
+                    <ul class="text-light dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="link-light dropdown-item" href="action.html">Action</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="another_action.html">Another action</a>
+                        </li>
+                        <li>
+                            <a class="link-light dropdown-item" href="else_here.html">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- End Header -->    <!-- End Header -->
+    <div class="container-fluid px-0">
+        <div class="main-bg-image  p-5">
+            <h1 class="text-white" style="padding-top: 100px; font-weight: 800;">We Manage Your Website For <br> <span id="typing-span" class="text-info fw-medium"></span> </h1>
+
+            <p class="bg-p" style="font-weight:800;">Let our Experts take care ofyour website so that you can
+                focus on your busines.</p>
+
+            <div>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>27x7x365
+                    Website
+                    Monitoring</p>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>Unlimated
+                    Technical
+                    Support</p>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>Contact
+                    Edits</p>
+            </div>
+
+            <div>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>Domain &
+                    Hosting
+                    Assistance</p>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>Website
+                    Security
+                    Management</p>
+                <p class="service-label" style="border-radius: 5px;"><i class="fa-regular fa-square-check"></i>Regular
+                    Backup</p>
+            </div>
+            <p class="bg-p ">Get Your Own Website Manager, <span class="text-info" style="font-weight: 800;">WhatsApp:
+                    +91 9130000885 </span></p>
+            <button type="button" class="btn btn-danger m-2">EXPLORE BENIFITS</button>
+            <button type="button" class="btn btn-outline-info text-black m-2">PLAY VIDEO <i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <div class="container py-5">
+            <div class="row justify-content-around mt-5 py-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-7">
+                    <h6>Support to Make You Succeed</h6>
+
+                    <h2 style="font-weight:bold;">Key Benefits of Website Maintenance</h2>
+                    <strong>
+                        <span id="typing-span-2" class="fs-5 py-1 text-bg-warning"></span>
+                    </strong>
+
+                    <p class="mt-10 mt-1 mb-20"><strong>The Ultimate Website Performance and Management Checklist. Fully
+                            Managed by Us.</strong></p>
+                    <div class="h-100 row ">
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/1.svg" alt="">
+                                <h4><strong>Peace of mind</strong></h4>
+                                <p>Give all your warries upon our shoulders and keep peace of your mind</p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i>Regular Backup</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>24x7 uptime Monitoring and Action </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Team of Passionate Developers</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>hand-Holding Support</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Consultation with Expert as Needs</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/2.svg" alt="">
+                                <h4><strong>Website Peak Performance</strong></h4>
+                                <p>The Core Focus of the Services is to reach your website’s peak performance.</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Optimize Website Speed & Performance</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Best Caching Implementation</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Optimize images and reduce size up to 90%</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Compression Techniques for Fast Download</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Get rid of spam comments</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/3.svg" alt="">
+                                <h4><strong>Professional Maintenance</strong></h4>
+                                <p>Regularly we do check-ups and updates of all your core files, plugins, and themes.
+                                </p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i> Regular Core Update</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Consistent Plugin Update </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Theme update for a fresh experience</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Deleted Unused themes and plugins.</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Regularly Find &amp; Fix Broken Links</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/4.svg" alt="">
+                                <h4><strong>Increase Traffic, Boost Ranking</strong></h4>
+                                <p>Get all the support to rank on Google, and make it visible to local and global
+                                    customers.</p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i>SEO Redirect Support</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Broken Link fix on </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Search Console Issue Fix</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Google Analytics Integration</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Sitemap submit to Search Console</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/5.svg" alt="">
+                                <h4><strong>Privacy, Search & Protection</strong></h4>
+                                <p>From the moment you opt for our services be carefree about the security of your site.
+                                    We remove all the malware and clean up your site from various security threats.</p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i>Cleann up longs and database</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Scan and Remove Malware </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Firewall Setup and Virus Protection</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Automated Security Scan</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Spam and Phishing Prevention</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/6.svg" alt="">
+                                <h4><strong>Emeergency Fix & Protection</strong></h4>
+                                <p>We monitor your site continuously with the help of our 24*7 monitoring. We ensure
+                                    that your site never goes down and is safe from any kind of brute-force attacks.</p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i> Diagnose and Fix Errors as they appear </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Constant Monitoring for Database Errors </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Debug Chronic Issues </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Brute-force Attacker Protection</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Captcha Protection</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/7.svg" alt="">
+                                <h4><strong>Mobile &amp; Browser Optimization</strong></h4>
+                                <p>We ensure that you never get penalized due to being non-responsive to any section of
+                                    your website. Any non-responsive issue we address to make it fully responsive. </p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i> Minor Mobile Responsibility Issue Resolution
+                                </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Browser caching for Mobile Speed </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> GZip Caching Implementation </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Lazy Load for Performance </p>
+                                <p><i class="fa-solid fa-check fa-lg"></i> Solving Alignment Issues</p>
+                            </div>
+                        </div>
+
+                        <div class="card_1 col-lg-6 col-md-6">
+                            <div class="service">
+                                <img src="assets/img/images/8.svg" alt="">
+                                <h4><strong>Increase Conversion Rate</strong></h4>
+                                <p>Our Web Case service will certainly improve your conversion rate by making everything
+                                    work fine all the time. </p>
+
+                                <p><i class="fa-solid fa-check fa-lg"></i>CDN Implementation</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Implement Conversion Frindly Change</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Assistant for your Marketing Campaign</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Implementinng Third-Party Scripts</p>
+                                <p><i class="fa-solid fa-check fa-lg"></i>Conversion Consultation as Required</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="service text-center">
+                                <img src="assets/img/images/9.svg" alt="">
+                                <h4><strong>Clarity of Deliverability</strong></h4>
+
+                                <p>We ensure that you are gwtting what you have paid for. It is also to make sure that
+                                    you
+                                    are up to date with the operations thst we are doing on your site.</p>
+
+
+                                <p> <span class="service-label"><i class="fa-regular fa-square-check"></i><span class="ti-check-box"></span>&nbsp; Monthly
+                                        Preventive Activity Report </span>
+                                    <span class="service-label"><i class="fa-regular fa-square-check"></i><span class="ti-check-box"></span>&nbsp; Advanced
+                                        Performance Report </span>
+                                    <span class="service-label"><i class="fa-regular fa-square-check"></i><span class="ti-check-box"></span>&nbsp; Uptime
+                                        Monitoring Report </span>
+                                    <span class="service-label"><i class="fa-regular fa-square-check"></i><span class="ti-check-box"></span>&nbsp; Ticket Insight
+                                        Report </span>
+                                    <span class="service-label"><i class="fa-regular fa-square-check"></i><span class="ti-check-box"></span>&nbsp; Google
+                                        Analytics Traffic Report </span>
+                                </p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-12 col-md-12 mt-5 mb-5" style="background-color: #142A24; color: #799583; border-style: solid; padding: 20px;">
+                            <h2 style="color: #D2E0ED;">A Brief of the World's First <strong>Systemized Website
+                                    Maintenance Program</strong></h2>
+                            <p class="" style="color: #799583;">The program is made of years of experience and enhanced
+                                by keeping
+                                systemization and
+                                client satisfaction in focus. Introduced in back 2017 and since then it's been 5 major
+                                revisions. The journey is not yet an end, we were continuously improving considering
+                                current and future internet threats. We are continuously improving and adding more
+                                features to it. <span class="text-bg-warning">Our objective is to make this program so
+                                    robust that any website falling under our website maintenance program will
+                                    be&nbsp;<strong>Fast, Safe, and Secure</strong></span> . Below are some of the
+                                Primary Features of our maintenance program:</p>
+
+                            <img src="assets/img/images/10.png" alt="" style="float: right;">
+
+
+                            <ol>
+                                <li>CRM for Maintenance Life Cycle </li>
+                                <li>Ticket Management System</li>
+                                <li>Android and IOS App</li>
+                                <li>20+ Monthly Preventive Tasks</li>
+                                <li>Remote Cloud Backup &amp; Restore</li>
+                                <li>Detailed Reporting System</li>
+                                <li>Easy-to-Use Customer Area</li>
+                                <li>4+ Ways to Raise a Ticket</li>
+                                <li>24×7 Website Uptime Monitoring</li>
+                                <li>Domain Expiry Monitoring and Alert</li>
+                                <li>SSL Certificate Expiry Monitoring</li>
+                                <li>Advanced Performance Monitoring</li>
+                                <li>Onboarding Health Check-up</li>
+                                <li>Dedicated Maintenance Team</li>
+                                <li>Unlimited Standard Support</li>
+                                <li>No Hours LImit</li>
+                                <li>Defined Process in Place</li>
+                                <li>5+ Type of Details Monthly Reports</li>
+                            </ol>
+
+                            <p class="" style="color: #799583;"><strong>Contact Us Today</strong> to make your website
+                                perform its optimum. </p>
+                        </div>
+
+                        <div>
+                            <div class="text-center mt-5 mb-5">
+                                <h6>Taking 100% Care of Your Website</h6>
+                                <h2 style="font-weight:bold;">Lets take your website performance to next level</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <P>From this...</P>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <p>To This...</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-3 mx-lg-0 mx-md-0 mx-xl-0">
+
+                                <div class="row ">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Felling
+                                            Helpless</p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; hand-Hold
+                                            Support</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Slow for visitors to load and browse
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Blazingly-fast WordPress website</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Multiple security breaches and
+                                            warnings
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Fully Secured, Monitored & backed-up
+                                            website</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Missing performance upgrades and
+                                            features
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Core &amp; plugins are always updated
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Declining website traffic </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Month-on-month website improvements
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Unresponsive and buggy website </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Mobile-friendly and optimized website
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Inexperienced WordPress developers
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Expert WordPress development
+                                            assistance
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        border
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Missing Domain &amp; SSL Certificate
+                                            Renewal </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Always Active and Renewed</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col-lg-5 col-md-5" style="background-color: #FAEFED; border: 1px solid #FE6056; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #E04F5F;"></i>&nbsp; Missed to take regularly updated
+                                            backup
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-1 d-lg-block d-md-block d-none d-xl-block mt-3 text-center">
+                                        <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #FCCB01;"></i>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5" style="background-color: #EBF8F6; border:1px solid #02C9B7; border-radius: 5px;">
+                                        <p class="text-black mt-3"><i class="fa-solid fa-circle-check fa-lg" style="color: #32BEA6;"></i>&nbsp; Always have a Safe and Recoverable
+                                            Backup
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-5 mb-5">
+                                    <h2>Want this peace of mind for one of your business's most important assets?</h2>
+                                    <div class="mt-3">
+                                        <button type="button" class="btn btn-outline-info m-2"><a href="tel:+919130000885" class="text-white">CALL: +91
+                                            9130000885</a></button>
+                                        <button type="button" class="btn btn-danger m-2"><a href="https://wa.me/919130000885" class="text-white">WHATSAPP: +91
+                                            9130000885</a></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix col-lg-12 col-md-12 col-sm-12 col-xl-4 form p-4 sidebar-widget sticky-top top">
+                    <h3 style="font-weight:bold ">Let our team manage it all for You!</h3>
+                    <p class="mt-10 mb-20">Your website means everything to you. Partner with the team
+                        that offers
+                        every
+                        aspect of <strong>premium website support</strong> services.</p>
+
+                    <form method="post">
+                        
+                        <div class="input-group mb-3">
+                            <input type="text" placeholder="★ Full Name" name="fullname" style="width: 100%;height: 40px;border-radius: 8px;">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="email" placeholder="★ Email Address" name="email" style="width: 100%;height: 40px;border-radius: 8px;">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">+91</span>
+                            <input type="text" class="form-control" name="number" placeholder="9130000885" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" placeholder="★ Website" name="website" style="width: 100%;height: 40px;border-radius: 8px;">
+                        </div>
+                        <button type="submit" name="submit" class="btn btn-danger" style="width: 100%;">SUBMIT</button>
+                        <div></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container  mt-5">
+            <div class="text-center">
+                <h6>100% Satisfaction Oriented</h6>
+                <h2 style="font-weight:bold;">Website Maintenance Process</h2>
+                <p>Having decades of experience, we have developed processes and systems from onboarding to
+                    satisfaction.</p>
+            </div>
+            <div class="row mt-5">
+
+                <div class="icon col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="assets/img/images/1.svg" alt="">
+                    <p class="step">Step 01</p>
+                    <h3>Get a Quote</h3>
+                    <p>Detailed Scope</p>
+                    <p>Get an instant detailed scope of work Quote</p>
+                </div>
+
+
+
+                <div class="icon col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="assets/img/images/2.svg" alt="">
+                    <p class="step">Step 02</p>
+                    <h3>Pick a Plan</h3>
+                    <p>Tailored Made For You</p>
+                    <p>Choose the right plan suitable for your website</p>
+                </div>
+
+
+
+                <div class="icon col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="assets/img/images/3.svg" alt="">
+                    <p class="step">Step 03</p>
+                    <h3>Onboard</h3>
+                    <p>To the Program</p>
+                    <p>Intense Onboarding Optimization to improve performance</p>
+                </div>
+
+
+
+                <div class="icon col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="assets/img/images/4.svg" alt="">
+                    <p class="step">Step 04</p>
+                    <h3>Get Support</h3>
+                    <p>Ongoing &amp; Unparalleled Support</p>
+                    <p>Be relaxed now! You are backed by the most advanced technical team.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center mt-5">
+                        <h6>Some words from our existing customers</h6>
+                        <h2 class="mt-2 mb-5" style="font-weight:bold;">Trusted and Reviewed by Thousands<br> of Website
+                            Owners World Wide
+                        </h2>
+                    </div>
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators list-unstyled">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus,
+                                                dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/1.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Paula Wilson</b></div>
+                                                        <div class="details" style="color: #799583;">Media Analyst /
+                                                            SkyNet</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-half-alt"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus.
+                                                Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum.
+                                                Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi
+                                                gravida.</div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/2.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Antonio Moreno</b></div>
+                                                        <div class="details" style="color: #799583;">Web Developer /
+                                                            SoftBee</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus,
+                                                dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/3.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Michael Holz</b></div>
+                                                        <div class="details" style="color: #799583;">Web Developer /
+                                                            DevCorp</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus.
+                                                Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum.
+                                                Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi
+                                                gravida.</div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/4.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Mary Saveley</b></div>
+                                                        <div class="details" style="color: #799583;">Graphic Designer /
+                                                            MarsMedia</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus,
+                                                dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/5.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Martin Sommer</b></div>
+                                                        <div class="details" style="color: #799583;">SEO Analyst /
+                                                            RealSearch</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6">
+                                        <div class="testimonial-wrapper">
+                                            <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus.
+                                                Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum.
+                                                Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi
+                                                gravida.</div>
+                                            <div class="media">
+                                                <div class="media-left d-flex me-3">
+                                                    <img src="assets/img/images/6.jpg" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>John Williams</b></div>
+                                                        <div class="details" style="color: #799583;">Web Designer /
+                                                            UniqueDesign</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                                </li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--style="background-color: #13294B!important;"-->
+        <div class="container-1 mb-5 mt-5 w-100" >
+            <div class="align-self-center slide-container">
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Amazon_Web_Services_Logo%201.svg" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Google_Cloud_Logo%201.svg" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/SNO-SnowflakeLogo_blue-1.png" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Axinom%20logo%20png1-2.png" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Brightcove%20short%20logo.png" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center ">
+                    <img src="assets/img/azure.png" alt="" class="img-s">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Amazon_Web_Services_Logo%201.svg" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center t-center">
+                    <img src="assets/img/Google_Cloud_Logo%201.svg" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/SNO-SnowflakeLogo_blue-1.png" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Axinom%20logo%20png1-2.png" class="img-s" alt="">
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center">
+                    <img src="assets/img/Brightcove%20short%20logo.png" class="img-s" alt="">
+
+                </div>
+
+                <div class="slide-img justify-content-center align-items-center  text-center ">
+                    <img src="assets/img/azure.png" alt="" class="img-s">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container p-5" style="border: 1px solid #799583;">
+            <div class="text-center">
+                <p class="pretitle">POWER UP YOUR WEBSITE WITH</p>
+                <h3>Optimum Performance and Care<br> from the Passionate Website Management Team</h3>
+                <div class="mt-3">
+                    <button type="button" class="btn btn-outline-info m-2"><a href="tel:+919130000885" class="text-white">CALL: +91
+                                            9130000885</a></button>
+                    <button type="button" class="btn btn-danger m-2"><a href="https://wa.me/919130000885" class="text-white">WHATSAPP: +91
+                                            9130000885</a></button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <!-- footer section  start-->
+    
+
+<div class="mt-4">
+  <div class="footer footer-bg">
+    <div class="container ">
+      <div class="row">
+        <div class="col-sm-6 p-md-5 p-sm-2 text-center">
+          <h3 style="color:white;">Contact Us</h3>
+          <p style="color:#0fc88a;">ICEICO TECHNOLOGIES PVT. LTD. <br> Plot No. 91, Ganesh Nagar, Azamshah Layout, Nandanwan, Nagpur, Maharashtra 440009 </p>
+         
+        </div>
+
+
+        <div class="col-sm-6 p-5 text-center">
+          <div>
+            <h3 style="color:white ;">NEWSLETTER</h3>
+          </div>
+          <div>
+            <!--<span><input type="Email" class="emailform " placeholder="Email Address"><button class="formbutton">Submit</button></span>-->
+            <div class="input-group mx-auto w-50">
+                <input type="email" class="form-control emailform bg-transparent text-white" placeholder="Email Address" aria-label="Input group example" aria-describedby="btnGroupAddon" >
+                <button class="input-group-text formbutton px-2" id="btnGroupAddon">Submit</button>    
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 p-md-5  ">
+          <div class="row">
+            <div class="col-sm-6 col-12 p-3 text-center">
+              <ul style="list-style-type:none;">
+                <caption><span class="cptndetail"><b>About Us</b></span></caption>
+                <li class="p-3"><a class="listdetails" href="#">Whitepaper</a></li>
+                <li class="p-3"><a class="listdetails" href="blog.html">Blog</a></li>
+                <li class="p-3"><a class="listdetails" href="#">Activity</a></li>
+
+              </ul>
+            </div>
+
+
+            <div class="col-sm-6 col-12 p-md-3 text-center">
+              <ul style="list-style-type:none;">
+                <caption><span class="cptndetail"><b>support</b></span></caption>
+                <li class="p-3"><a class="listdetails" href="#">Author Profile</a></li>
+                <li class="p-3"><a class="listdetails" href="#">Community</a></li>
+                <li class="p-3"><a class="listdetails" href="#">Help & support</a></li>
+                <li class="p-3"><a class="listdetails" href="contact_us.html">Contact</a></li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 p-5 text-center">
+          <h3 class="mt-5" style="color: white;">Social Media</h3>
+          <div class="mt-2">
+            <i class="bi bi-facebook p-2"></i>
+            <i class="bi bi-twitter p-2"></i>
+            <i class="bi bi-instagram p-2"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>    
+     <script type="text/javascript">
+            
+            setTimeout(function () {
+                var aElement = document.getElementById("b-variable");
+                aElement.style.display = "none";
+            }, 10000);
+   </script>
+    
+    <script src="../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- typing animation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            var dataText = ["Optimum-Performance", "Hackproof-Security", "Quick-Recoverable-Backup", "Content-Edits", "UX-Improvement"];
+            var typingSpan = document.getElementById("typing-span");
+
+            function typeWriter(text, i, fnCallback) {
+                if (i < text.length) {
+                    typingSpan.innerHTML = text.substring(0, i + 1);
+                    setTimeout(function() {
+                        typeWriter(text, i + 1, fnCallback)
+                    }, 100);
+                } else if (typeof fnCallback == 'function') {
+                    setTimeout(fnCallback, 700);
+                }
+            }
+
+            function startTextAnimation(i) {
+                if (typeof dataText[i] == 'undefined') {
+                    setTimeout(function() {
+                        startTextAnimation(0);
+                    }, 20000);
+                }
+                if (i < dataText.length) {
+                    typeWriter(dataText[i], 0, function() {
+                        startTextAnimation(i + 1);
+                    });
+                }
+            }
+
+            startTextAnimation(0);
+        });
+    </script>
+
+    <!-- typing animation 2 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            var dataText = ["Spending lots of time resolving website issues?", "Getting complaints about broken links and functions?", " Looking for a reliable team to address website issues?", "Willing to give your visitors a smooth experience?"];
+            var typingSpan = document.getElementById("typing-span-2");
+
+            function typeWriter(text, i, fnCallback) {
+                if (i < text.length) {
+                    typingSpan.innerHTML = text.substring(0, i + 1);
+                    setTimeout(function() {
+                        typeWriter(text, i + 1, fnCallback);
+                    }, 100);
+                } else if (typeof fnCallback == 'function') {
+                    setTimeout(fnCallback, 700);
+                }
+            }
+
+            function startTextAnimation(i) {
+                if (i < dataText.length) {
+                    typeWriter(dataText[i], 0, function() {
+                        startTextAnimation((i + 1) % dataText.length); // Loop back to the beginning
+                    });
+                }
+            }
+
+            startTextAnimation(0);
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from iceico.in/maintenance.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 13:16:42 GMT -->
+</html>

@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.www.nagarro.com	TRUE	/	FALSE	1999999999	__cf_bm	s3asuAIJzYmH_4noHXpLshxlNkznC8Qrl0C0Pf3f0Nc-1703337435-1-ASyS0/iu0j4A4m/dPeLqIGTTtRxUPMUJXjNEA+GXpl7EJn3Xsxy3e2g7g5cf0r3FGbw8LJAUjYYy0DFHm6ZYT1s=
+.www.nagarro.com	TRUE	/	FALSE	1999999999	__cfruid	39c77172c275398ec39bce96cde2f801444b8684-1703337435
+www.nagarro.com	TRUE	/	FALSE	1999999999	SameSite	None
+

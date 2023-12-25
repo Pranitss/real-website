@@ -1,0 +1,220 @@
+.multiple-testimonials {
+  overflow: hidden;
+}
+.multiple-testimonials .row-fluid .span8.center-aligned {
+  float: none;
+  margin: 0 auto;
+}
+.client-testimonials .slick-list {
+  margin: 0 auto;
+  overflow: visible;
+  width: 65.81196581200001%;
+}
+.multiple-testimonials .client-testimonials {
+  margin-top: 60px;
+}
+.multiple-testimonials .client-testimonials button.slick-arrow {
+  background-position: 50%;
+  border: 1px solid #d2d6dd;
+  border-radius: 50%;
+  height: 48px;
+  padding: 0;
+  width: 48px;
+}
+.multiple-testimonials .client-testimonials button.slick-arrow:focus,
+.multiple-testimonials .client-testimonials button.slick-arrow:hover {
+  outline: none;
+}
+.multiple-testimonials .client-testimonials button.slick-arrow.slick-prev {
+  left: 0;
+}
+.multiple-testimonials .client-testimonials button.slick-arrow.slick-next {
+  left: auto;
+  right: 0;
+}
+.client-testimonials h4 {
+  margin: 0;
+  position: relative;
+}
+.client-testimonials h4:before {
+  background: url(../../../www.nagarro.com/hubfs/NagarroWebsiteRedesign-Aug2020/Assets/Images/Icons/quote-start.png)
+    no-repeat;
+  content: "";
+  height: 35px;
+  left: -46px;
+  position: absolute;
+  top: -17px;
+  width: 24px;
+}
+.client-testimonials h4:after {
+  background: url(../../../www.nagarro.com/hubfs/NagarroWebsiteRedesign-Aug2020/Assets/Images/Icons/quote-end.png)
+    no-repeat;
+  bottom: -20px;
+  content: "";
+  height: 49px;
+  position: absolute;
+  right: -48px;
+  width: 31px;
+}
+.client-logos .logo-outer {
+  height: 60px;
+  margin-bottom: 18px;
+  padding: 6px 0;
+}
+.client-logos .slick-list {
+  border-bottom: 1px solid #d2d6dd;
+  overflow: visible;
+  padding: 0 !important;
+}
+.client-logos .logo-outer img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.multiple-testimonials .slick-track {
+  display: flex;
+  margin: 0;
+  min-width: 100%;
+  transform: translateZ(0) !important;
+}
+.client-logos .slick-slide {
+  flex-grow: 1;
+}
+.client-logos .slick-slide.slick-current {
+  border-bottom: 1px solid #2e008b;
+  margin-bottom: -1px;
+}
+.client-logos .slick-slide img {
+  filter: grayscale(100%);
+  max-width: 100%;
+}
+.client-logos .slick-slide.slick-current img,
+.client-logos .slick-slide:hover img {
+  filter: none;
+}
+.client-logos .slick-slide:focus,
+.client-logos .slick-slide:hover {
+  outline: none;
+}
+.multiple-testimonials .user-profile {
+  align-items: center;
+  display: flex;
+  margin-top: 48px;
+}
+.multiple-testimonials .user-profile .profile-pic {
+  border-radius: 50%;
+  display: inline-block;
+  height: 60px;
+  margin-right: 24px;
+  overflow: hidden;
+  width: 60px;
+}
+.multiple-testimonials .user-profile img {
+  max-width: 100%;
+}
+.multiple-testimonials .user-profile .other-info {
+  display: inline-block;
+  padding: 7px 0;
+  vertical-align: top;
+}
+.multiple-testimonials .user-profile .other-info span {
+  display: block;
+}
+.view-video-heading {
+  margin-left: auto;
+  order: 2;
+}
+.view-video-url {
+  background: url(../../../www.nagarro.com/hubfs/NagarroWebsiteRedesign-Aug2020/Assets/Images/Icons/Vector%207.png)
+    no-repeat 100%;
+  background-size: 11px auto;
+  margin-right: 10px;
+  outline: none;
+  padding-right: 24px;
+}
+.view-video-url:focus,
+.view-video-url:hover {
+  background-image: url(../../../www.nagarro.com/hubfs/NagarroWebsiteRedesign-Aug2020/Assets/Images/Icons/arrow-active.png);
+  color: #2e008b;
+  outline: none;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.multiple-testimonials .slider button.slick-arrow {
+  background: url(https://www.nagarro.com/hubfs/NagarroWebsiteRedesign-Aug2020/Assets/Images/Icons/blue-arrow.svg)
+    no-repeat 50%;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  top: 27%;
+}
+.multiple-testimonials .slider button.slick-arrow.slick-next {
+  transform: rotate(-180deg);
+}
+@media (max-width: 1023px) {
+  .multiple-testimonials .row-fluid .span12-small {
+    width: 100%;
+  }
+  .client-testimonials .slick-list {
+    width: 82.905982906%;
+  }
+  .multiple-testimonials .client-testimonials button.slick-arrow.slick-prev {
+    left: -36px;
+  }
+  .multiple-testimonials .client-testimonials button.slick-arrow.slick-next {
+    right: -36px;
+  }
+  .client-testimonials h4:before {
+    background-size: 100%;
+    left: -32px;
+    top: -10px;
+    width: 18px;
+  }
+  .client-testimonials h4:after {
+    background-size: 100%;
+    bottom: -30px;
+    right: -20px;
+    width: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .multiple-testimonials .client-testimonials button.slick-arrow {
+    display: none !important;
+  }
+  .client-testimonials .slick-list {
+    width: 100%;
+  }
+  .client-testimonials h4:before {
+    left: -16px;
+    top: -6px;
+    width: 11px;
+  }
+  .client-testimonials h4:after {
+    bottom: -40px;
+    right: -10px;
+    width: 12px;
+  }
+  .client-logos .logo-outer {
+    margin-bottom: 6px;
+    padding: 6px;
+    position: relative;
+  }
+  .client-logos .slick-slide img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 32px;
+    max-width: calc(100% - 12px);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .multiple-testimonials .user-profile .profile-pic {
+    margin-right: 12px;
+  }
+  .multiple-testimonials .user-profile {
+    flex-wrap: wrap;
+  }
+  .view-video-heading {
+    width: 100%;
+  }
+}
